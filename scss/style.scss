@@ -101,7 +101,7 @@ p {
         padding: $relleno-cajitas * 2;
         .oferta-cursos__p {
             margin: 0%;
-            font-size: $font-h2-oferta-cursos;
+            font-size: $font-p-oferta-cursos;
             text-align: start;
             color: $white-ct;
         }
@@ -203,11 +203,12 @@ p {
         border-bottom: 3px solid $white-ct;
         background-color: $gris-ct;
         color: $white-ct;
-        .contenedores-eficacia__img-calidad{
-            border-left: 1px solid $white-ct;
-        }
-        .contenedores-eficacia__img-conformidad{
+        display: flex;
+        .contenedores-eficacia__img-left{
             border-right: 1px solid $white-ct;
+        }
+        .contenedores-eficacia__img-right{
+            border-left: 1px solid $white-ct;
         }
         .contenedores-eficacia__container-hijo{
             padding: 19px;
@@ -458,6 +459,12 @@ p {
     }
     /*fin section ventajas-consulteccnia*/
 
+    .contenedores-eficacia{
+        img{
+            width: 50%;
+        }
+        }
+
     .cursos {
         .card-duration {
             font-size: 1.2em;
@@ -529,7 +536,7 @@ p {
         .oferta-cursos__container{
             max-width: 100%;
             .oferta-cursos__p{
-                font-size: $font-h2-oferta-cursos-lg;
+                font-size: $font-p-oferta-cursos-lg;
             }   
             .oferta-cursos__button{
                 font-size: 1.2em;
@@ -551,7 +558,7 @@ p {
     /*section ventajas-consulteccnia*/
     .ventajas-consulteccnia {
         .ventajas-consulteccnia__h2{
-            margin: $margenes / 2;
+            margin: $margenes / 3;
         }
         .contenedor-padre {
             background-image: none;
@@ -622,6 +629,12 @@ p {
         }
     }
 
+    .contenedores-eficacia{
+        img{
+            display: none;
+        }
+        }
+
         /*atributos a ubicacion*/
         .ubicacion {
             .ubicacion__padre{
@@ -646,6 +659,12 @@ p {
         font-size: $font-size-p-sm;
     }
 
+    header{
+        img{
+            width: 130px;
+        }
+    }
+
     /*section de oferta-cursos*/
     .oferta-cursos {
         display: flex;
@@ -653,7 +672,7 @@ p {
         .oferta-cursos__container {
             color: $negro;
             .oferta-cursos__p {
-                font-size: $font-h2-oferta-cursos-sm;
+                font-size: $font-p-oferta-cursos-sm;
             }
             .oferta-cursos__button {
                 font-size: 1em;
@@ -665,11 +684,38 @@ p {
     }
     /*fin atributos al section de ubicacion*/
 
+    /*section ventajas-consulteccnia*/
+    .ventajas-consulteccnia {
+        .ventajas-consulteccnia__h2{
+            margin: $margenes / 8;
+        }
+    }
+    
     /*sección de about-me*/
     .about-me__legend {
         font-size: 0.9em;
     }
     /*fin de sección de about-me*/
+
+    .contenedores-eficacia{
+        img{
+            display: none;
+        }
+        padding: $relleno-cajitas;
+        .contenedores-eficacia__container{
+            h2{
+                font-size: 1em;
+            }
+        }
+        }
+
+        /*atributos a ubicacion*/
+        .ubicacion {
+            .ubicacion__padre{
+                flex-direction: column;
+                }
+            }
+        /*fin atributos a ubicacion*/
 
     /*atributos a contact*/
     .contact {

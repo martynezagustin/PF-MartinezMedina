@@ -234,7 +234,7 @@ body {
   width: 24%;
 }
 .ventajas-consulteccnia .contenedor-padre .ventajas-consulteccnia__contenedor .ventajas-consulteccnia__p {
-  font-size: 1.8em;
+  font-size: 1.7em;
   color: #e3ded8;
 }
 
@@ -251,15 +251,16 @@ body {
   border-bottom: 3px solid #e3ded8;
   background-color: rgb(50, 50, 50);
   color: #e3ded8;
+  display: flex;
 }
 .contenedores-eficacia .contenedores-eficacia__container h2 {
   color: #e3ded8;
 }
-.contenedores-eficacia .contenedores-eficacia__container .contenedores-eficacia__img-calidad {
-  border-left: 1px solid #e3ded8;
-}
-.contenedores-eficacia .contenedores-eficacia__container .contenedores-eficacia__img-conformidad {
+.contenedores-eficacia .contenedores-eficacia__container .contenedores-eficacia__img-left {
   border-right: 1px solid #e3ded8;
+}
+.contenedores-eficacia .contenedores-eficacia__container .contenedores-eficacia__img-right {
+  border-left: 1px solid #e3ded8;
 }
 .contenedores-eficacia .contenedores-eficacia__container .contenedores-eficacia__container-hijo {
   padding: 19px;
@@ -487,9 +488,12 @@ body {
     padding: 0px 0px 15px 0px;
   }
   .ventajas-consulteccnia .contenedor-padre .ventajas-consulteccnia__contenedor .ventajas-consulteccnia__p {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   /*fin section ventajas-consulteccnia*/
+  .contenedores-eficacia img {
+    width: 50%;
+  }
   .cursos .card-duration {
     font-size: 1.2em;
   }
@@ -518,7 +522,7 @@ body {
     font-size: 1.2em;
   }
   p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   header {
     box-shadow: 0px 0px 25px 3px rgb(97, 97, 97);
@@ -558,12 +562,12 @@ body {
   /*fin de sección de oferta-cursos*/
   /*sección de beneficios-consulteccnia*/
   .beneficios-consulteccnia .beneficios-consulteccnia__caja .beneficios-consulteccnia__p {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   /*fin sección de beneficios-consulteccnia*/
   /*section ventajas-consulteccnia*/
   .ventajas-consulteccnia .ventajas-consulteccnia__h2 {
-    margin: 25px;
+    margin: 16.6666666667px;
   }
   .ventajas-consulteccnia .contenedor-padre {
     background-image: none;
@@ -583,7 +587,7 @@ body {
   }
   .ventajas-consulteccnia .contenedor-padre .ventajas-consulteccnia__contenedor-padre__flex-end .ventajas-consulteccnia__contenedor .ventajas-consulteccnia__p,
   .ventajas-consulteccnia .contenedor-padre .ventajas-consulteccnia__contenedor-padre__flex-start .ventajas-consulteccnia__contenedor .ventajas-consulteccnia__p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   /*fin del section ventajas-consulteccnia*/
   .cursos .card-duration {
@@ -624,6 +628,9 @@ body {
   .oferta-cursos .oferta-cursos__img {
     width: 100%;
   }
+  .contenedores-eficacia img {
+    display: none;
+  }
   /*atributos a ubicacion*/
   .ubicacion .ubicacion__padre {
     flex-direction: column;
@@ -636,13 +643,16 @@ body {
     font-size: 2.3em;
   }
   h2 {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   h3 {
     font-size: 1em;
   }
   p {
     font-size: 0.9em;
+  }
+  header img {
+    width: 130px;
   }
   /*section de oferta-cursos*/
   .oferta-cursos {
@@ -653,7 +663,7 @@ body {
     color: rgb(20, 20, 20);
   }
   .oferta-cursos .oferta-cursos__container .oferta-cursos__p {
-    font-size: 1.8em;
+    font-size: 1.2em;
   }
   .oferta-cursos .oferta-cursos__container .oferta-cursos__button {
     font-size: 1em;
@@ -662,11 +672,29 @@ body {
     width: 100%;
   }
   /*fin atributos al section de ubicacion*/
+  /*section ventajas-consulteccnia*/
+  .ventajas-consulteccnia .ventajas-consulteccnia__h2 {
+    margin: 6.25px;
+  }
   /*sección de about-me*/
   .about-me__legend {
     font-size: 0.9em;
   }
   /*fin de sección de about-me*/
+  .contenedores-eficacia {
+    padding: 10px;
+  }
+  .contenedores-eficacia img {
+    display: none;
+  }
+  .contenedores-eficacia .contenedores-eficacia__container h2 {
+    font-size: 1em;
+  }
+  /*atributos a ubicacion*/
+  .ubicacion .ubicacion__padre {
+    flex-direction: column;
+  }
+  /*fin atributos a ubicacion*/
   /*atributos a contact*/
   .contact .formulario .form-control {
     width: 90%;

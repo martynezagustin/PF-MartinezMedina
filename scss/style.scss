@@ -543,6 +543,9 @@ p {
     .oferta-cursos {
         .oferta-cursos__container{
             max-width: 100%;
+            .oferta-cursos__h1{
+                font-size: 1.2em;
+            }
             .oferta-cursos__p{
                 font-size: $font-p-oferta-cursos-lg;
             }   

@@ -695,6 +695,17 @@ p {
     }
     /*fin atributos al section de ubicacion*/
 
+        /*sección de beneficios-consulteccnia*/
+        .beneficios-consulteccnia {
+            .beneficios-consulteccnia__caja {
+                @include propiedadesCajas($relleno-cajitas, $negro, $width-caja-beneficios-sm);
+                .beneficios-consulteccnia__p {
+                    font-size: $font-size-p-sm;
+                }
+            }
+        }
+        /*fin sección de beneficios-consulteccnia*/
+
     /*section ventajas-consulteccnia*/
     .ventajas-consulteccnia {
         .ventajas-consulteccnia__h2{

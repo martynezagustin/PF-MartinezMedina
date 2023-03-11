@@ -143,6 +143,11 @@ body {
   max-width: 50%;
   padding: 20px;
 }
+.oferta-cursos .oferta-cursos__container .oferta-cursos__h1 {
+  font-size: 1.5em;
+  background-color: #e3ded8;
+  border-left: 8px solid rgb(20, 20, 20);
+}
 .oferta-cursos .oferta-cursos__container .oferta-cursos__p {
   margin: 0%;
   font-size: 2.6em;
@@ -464,6 +469,9 @@ body {
   .oferta-cursos {
     height: auto;
   }
+  .oferta-cursos .oferta-cursos__container .oferta-cursos__p {
+    font-size: 2.3em;
+  }
   .oferta-cursos .oferta-cursos__container .oferta-cursos__button {
     padding: 10px;
   }
@@ -554,7 +562,7 @@ body {
     max-width: 100%;
   }
   .oferta-cursos .oferta-cursos__container .oferta-cursos__p {
-    font-size: 2em;
+    font-size: 1.6em;
   }
   .oferta-cursos .oferta-cursos__container .oferta-cursos__button {
     font-size: 1.2em;
@@ -661,6 +669,9 @@ body {
   }
   .oferta-cursos .oferta-cursos__container {
     color: rgb(20, 20, 20);
+  }
+  .oferta-cursos .oferta-cursos__container .oferta-cursos__h1 {
+    font-size: 1em;
   }
   .oferta-cursos .oferta-cursos__container .oferta-cursos__p {
     font-size: 1.2em;

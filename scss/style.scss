@@ -102,7 +102,7 @@ p {
         .oferta-cursos__h1{
             font-size: 1.5em;
             background-color: $white-ct;
-            border-left: 8px solid $negro;
+            border-left: 10px solid $negro;
         }
         .oferta-cursos__p {
             margin: 0%;
@@ -238,10 +238,13 @@ p {
             padding: $relleno-cajitas + 5;
         }
         .ubicacion__i-frame {
-            border: 1px solid $white-ct;
+            border-right: 1px solid $gris-ct;
+            border-left: 1px solid $white-ct;
+            border-bottom: 1px solid $white-ct;
+            border-top: 1px solid $white-ct;
         }
         .ubicacion__datos{
-            border-left: 1px solid $gris-ct;
+            border-left: 1px solid $white-ct;
             border-right: 1px solid $white-ct;
             border-bottom: 1px solid $white-ct;
             .ubicacion__datos-p{

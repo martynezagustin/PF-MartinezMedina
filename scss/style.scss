@@ -99,6 +99,11 @@ p {
         align-items: start;
         max-width: 50%;
         padding: $relleno-cajitas * 2;
+        .oferta-cursos__h1{
+            font-size: 1.5em;
+            background-color: $white-ct;
+            border-left: 8px solid $negro;
+        }
         .oferta-cursos__p {
             margin: 0%;
             font-size: $font-p-oferta-cursos;
@@ -425,6 +430,9 @@ p {
     .oferta-cursos {
         height: auto;
         .oferta-cursos__container {
+            .oferta-cursos__p{
+                font-size: $font-p-oferta-cursos-xl;
+            }
             .oferta-cursos__button {
                 padding: $relleno-cajitas;
             }
@@ -671,6 +679,9 @@ p {
         flex-direction: column;
         .oferta-cursos__container {
             color: $negro;
+            .oferta-cursos__h1{
+                font-size: 1em;
+            }
             .oferta-cursos__p {
                 font-size: $font-p-oferta-cursos-sm;
             }

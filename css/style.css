@@ -146,7 +146,7 @@ body {
 .oferta-cursos .oferta-cursos__container .oferta-cursos__h1 {
   font-size: 1.5em;
   background-color: #e3ded8;
-  border-left: 8px solid rgb(20, 20, 20);
+  border-left: 10px solid rgb(20, 20, 20);
 }
 .oferta-cursos .oferta-cursos__container .oferta-cursos__p {
   margin: 0%;
@@ -290,10 +290,13 @@ body {
   padding: 15px;
 }
 .ubicacion .ubicacion__padre .ubicacion__i-frame {
-  border: 1px solid #e3ded8;
+  border-right: 1px solid rgb(50, 50, 50);
+  border-left: 1px solid #e3ded8;
+  border-bottom: 1px solid #e3ded8;
+  border-top: 1px solid #e3ded8;
 }
 .ubicacion .ubicacion__padre .ubicacion__datos {
-  border-left: 1px solid rgb(50, 50, 50);
+  border-left: 1px solid #e3ded8;
   border-right: 1px solid #e3ded8;
   border-bottom: 1px solid #e3ded8;
 }

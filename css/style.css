@@ -561,6 +561,9 @@ body {
   .oferta-cursos .oferta-cursos__container {
     max-width: 100%;
   }
+  .oferta-cursos .oferta-cursos__container .oferta-cursos__h1 {
+    font-size: 1.2em;
+  }
   .oferta-cursos .oferta-cursos__container .oferta-cursos__p {
     font-size: 1.6em;
   }

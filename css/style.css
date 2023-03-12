@@ -402,6 +402,7 @@ body {
 .contact .formulario .form-control {
   width: 40%;
   border: 1px solid rgb(20, 20, 20);
+  border-radius: 0px;
 }
 .contact .formulario .form-label {
   font-weight: 800;
@@ -738,7 +739,7 @@ body {
     height: 100px;
   }
   .servicios .card-text {
-    font-size: 0.87em;
+    font-size: 1em;
   }
   /*el logotipo del footer al final*/
   .footer .insta {

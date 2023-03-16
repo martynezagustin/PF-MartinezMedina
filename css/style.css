@@ -714,7 +714,7 @@ body {
   }
   /*fin de sección de about-me*/
   .contenedores-eficacia {
-    padding: 10px;
+    padding: 20px;
   }
   .contenedores-eficacia img {
     display: none;
@@ -724,7 +724,7 @@ body {
   }
   /*atributos a ubicacion*/
   .ubicacion {
-    padding: 5px;
+    padding: 10px;
   }
   .ubicacion .ubicacion__padre {
     flex-direction: column;

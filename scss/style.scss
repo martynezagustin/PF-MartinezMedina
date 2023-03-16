@@ -729,10 +729,10 @@ p {
     /*fin de sección de about-me*/
 
     .contenedores-eficacia{
+        padding: $relleno-cajitas * 2;
         img{
             display: none;
         }
-        padding: $relleno-cajitas;
         .contenedores-eficacia__container{
             h2{
                 font-size: 1em;
@@ -742,7 +742,7 @@ p {
 
         /*atributos a ubicacion*/
         .ubicacion {
-            padding: $relleno-cajitas / 2;
+            padding: $relleno-cajitas;
             .ubicacion__padre{
                 flex-direction: column;
                 }

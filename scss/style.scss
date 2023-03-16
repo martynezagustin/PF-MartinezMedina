@@ -228,6 +228,7 @@ p {
     display: flex;
     flex-direction: column;
     border-bottom: 3px solid $white-ct;
+    padding: $relleno-cajitas * 2;
     .ubicacion__h2{
         color: $white-ct;
     }
@@ -652,6 +653,7 @@ p {
 
         /*atributos a ubicacion*/
         .ubicacion {
+            padding: $relleno-cajitas;
             .ubicacion__padre{
                 flex-direction: column;
                 }
@@ -740,6 +742,7 @@ p {
 
         /*atributos a ubicacion*/
         .ubicacion {
+            padding: $relleno-cajitas / 2;
             .ubicacion__padre{
                 flex-direction: column;
                 }

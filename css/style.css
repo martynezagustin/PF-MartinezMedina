@@ -278,6 +278,7 @@ body {
   display: flex;
   flex-direction: column;
   border-bottom: 3px solid #e3ded8;
+  padding: 20px;
 }
 .ubicacion .ubicacion__h2 {
   color: #e3ded8;
@@ -647,6 +648,9 @@ body {
     display: none;
   }
   /*atributos a ubicacion*/
+  .ubicacion {
+    padding: 10px;
+  }
   .ubicacion .ubicacion__padre {
     flex-direction: column;
   }
@@ -719,6 +723,9 @@ body {
     font-size: 1em;
   }
   /*atributos a ubicacion*/
+  .ubicacion {
+    padding: 5px;
+  }
   .ubicacion .ubicacion__padre {
     flex-direction: column;
   }

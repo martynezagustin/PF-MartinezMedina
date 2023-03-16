@@ -724,7 +724,7 @@ body {
   }
   /*atributos a ubicacion*/
   .ubicacion {
-    padding: 10px;
+    padding: 15px;
   }
   .ubicacion .ubicacion__padre {
     flex-direction: column;

@@ -742,7 +742,7 @@ p {
 
         /*atributos a ubicacion*/
         .ubicacion {
-            padding: $relleno-cajitas;
+            padding: $relleno-cajitas + 5;
             .ubicacion__padre{
                 flex-direction: column;
                 }
